@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: 15vh;
+  background: lightgreen;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-list {
+  padding-right: 30px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
